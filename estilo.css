@@ -1,0 +1,139 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+#header {
+margin:auto;
+width:500px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+list-style:none; 
+}
+
+
+.nav li a {
+background-color:#000;
+color:#fff;
+text-decoration:none;
+padding:10px 15px;
+display:block;
+
+}
+
+.nav li a:hover {
+background-color:#434343;
+}
+
+.nav > li {
+float:left;
+}
+
+
+
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+
+.nav li:hover > ul {
+display:block;
+}
+
+body{
+background:url(estudiantes_fondo.png);
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card {
+border: 1px solid #fff;
+height: 30rem;
+width: 20rem;
+position: relative;
+background:url(imagen_form.jpg) ;
+}
+
+.card-footer {
+position: absolute;
+bottom: 0px;
+left: 0;
+right: 0;
+text-align: center;
+background: #dfe8e9;
+padding: 9px;
+}
+
+.title{
+    color:#fff;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.ayuda{
+    color: #fff;
+}
+
+.leg{
+    color: #fff;
+    text-align: center;
+}
+.tamano{
+    padding: 500px;
+}
+
+.btn-chat{
+    margin-left: 48%;
+    padding: 15px;
+    width: 150px;
+}
+
+label{
+    color: #fff;
+    margin-left: 40%;
+}
+
+.buscador{
+
+    margin-left: -90px;
+
+    margin-top: 300px;
+
+    padding: 15px;
+
+    width: 550px;
+
+    border: 1px solid black;
+
+
+}
+
+.btnbuscador{
+
+margin-left: 120px;
+padding: 15px;
+cursor: pointer;
+border-radius: 10%;
+
+}
+
+input{
+    margin: 3px;
+}
+
+.btnAñadir{
+
+
+padding: 15px;
+cursor: pointer;
+border-radius: 10%;
+
+}
+
